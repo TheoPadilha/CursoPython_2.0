@@ -1,0 +1,36 @@
+def somar(a ,b):
+    s = a +b
+    return s
+    
+s =somar(8,5)
+print(s)
+    
+    # ===RETORNO DE VARIAVEIS===
+
+# Exemplo de retorno de variáveis em funções
+
+def somar(a, b):
+    """Soma dois números e retorna o resultado."""
+    resultado = a + b  # Calcula a soma
+    return resultado  # Retorna o resultado
+
+# Chamando a função e armazenando o valor retornado em uma variável
+resultado_soma = somar(5, 3)
+
+# Mostrando o valor retornado
+print(f'O resultado da soma é: {resultado_soma}')  # Saída: O resultado da soma é: 8
+
+# ===========
+
+def calcular(a, b):
+    """Calcula a soma e o produto de dois números e retorna ambos."""
+    soma = a + b
+    produto = a * b
+    return soma, produto  # Retorna uma tupla com dois valores
+
+# Chamando a função e armazenando os valores retornados em variáveis
+resultado_soma, resultado_produto = calcular(4, 5)
+
+# Mostrando os valores retornados
+print(f'A soma é: {resultado_soma}')       # Saída: A soma é: 9
+print(f'O produto é: {resultado_produto}')  # Saída: O produto é: 20
