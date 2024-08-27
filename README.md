@@ -1,2 +1,2 @@
 # CursoPython_2.0
- Minhas Aulas e Exercícios de Aprendizado em Python
+ Meu Processo de Aprendizagem e Exercícios em Python - Curso em Vídeo
