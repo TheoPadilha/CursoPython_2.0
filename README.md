@@ -1,2 +1,2 @@
 # CursoPython_2.0
- Minhas aulas e exercicios que fiz da linguagem PYTHON.
+ Minhas Aulas e Exercícios de Aprendizado em Python
