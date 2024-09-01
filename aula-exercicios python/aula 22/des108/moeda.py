@@ -19,6 +19,6 @@ def metade(n=0):
     res = n/2
     return res
     
-def moeda(n=0):
-    res = f'R${n:.2f}'
+def moeda(n=0,p='R$'):
+    res = f'{p}{n:.2f}'.replace('.',',')
     return res
