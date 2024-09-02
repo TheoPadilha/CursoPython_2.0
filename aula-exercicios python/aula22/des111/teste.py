@@ -3,7 +3,9 @@
 
 # import moeda
 # from moeda import aumentar,diminuir,dobro ,metade
-from aula22.des111 import moeda
+
+
+from utilidadecev import moeda
 
 num = float(input('Digite um preço: R$'))
 tax = int(input('Informe a taxa em %: '))
